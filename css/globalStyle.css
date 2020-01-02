@@ -51,7 +51,7 @@ h6 {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 999999;
+  z-index: 9999;
   top: 0;
   right: 0;
   background-color: #111;
@@ -199,6 +199,9 @@ h6 {
 }
  /* contact-modal
 ================================================== */
+#myModal{
+  z-index: 99999;
+}
 .contact-bg{
   background: #ff9b00;
   padding: 4%;
